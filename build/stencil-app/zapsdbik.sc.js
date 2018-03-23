@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.StencilApp;class e{render(){return t("div",{class:"box"},"")}static get is(){return"my-app"}static get encapsulation(){return"shadow"}static get style(){return".box[data-my-app]{background-color:red;width:5rem;height:5rem}"}}export{e as MyApp};

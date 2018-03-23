@@ -1,0 +1,12 @@
+{
+  "namespace": "StencilApp",
+  "fsNamespace": "stencil-app",
+  "loader": "../stencil-app.js",
+  "core": "stencil-app.0axlkb6q.js",
+  "corePolyfilled": "stencil-app.hp2dnhea.js",
+  "components": {
+    "my-app": {
+      "$": "zapsdbik"
+    }
+  }
+}
