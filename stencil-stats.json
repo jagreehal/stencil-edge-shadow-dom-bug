@@ -1,0 +1,87 @@
+{
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.6"
+  },
+  "app": {
+    "namespace": "StencilApp",
+    "fsNamespace": "stencil-app",
+    "components": 1,
+    "entries": 1,
+    "bundles": 4
+  },
+  "options": {
+    "minifyJs": true,
+    "minifyCss": true,
+    "hashFileNames": true,
+    "hashedFileNameLength": 8,
+    "buildEs5": true
+  },
+  "components": [
+    {
+      "tag": "my-app",
+      "dependencies": [],
+      "dependencyOf": []
+    }
+  ],
+  "entries": [
+    {
+      "entryId": "entry:my-app",
+      "components": [
+        {
+          "tag": "my-app",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "zapsdbik.js",
+          "size": 288,
+          "outputs": [
+            "dist/stencil-app/zapsdbik.js",
+            "www/build/stencil-app/zapsdbik.js"
+          ]
+        },
+        {
+          "fileName": "zapsdbik.sc.js",
+          "size": 301,
+          "outputs": [
+            "dist/stencil-app/zapsdbik.sc.js",
+            "www/build/stencil-app/zapsdbik.sc.js"
+          ],
+          "scopedStyles": true
+        },
+        {
+          "fileName": "zapsdbik.es5.js",
+          "size": 622,
+          "outputs": [
+            "dist/stencil-app/zapsdbik.es5.js",
+            "www/build/stencil-app/zapsdbik.es5.js"
+          ],
+          "target": "es5"
+        },
+        {
+          "fileName": "zapsdbik.sc.es5.js",
+          "size": 635,
+          "outputs": [
+            "dist/stencil-app/zapsdbik.sc.es5.js",
+            "www/build/stencil-app/zapsdbik.sc.es5.js"
+          ],
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
+      "inputs": [
+        "dist/collection/components/my-app/my-app.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    }
+  ],
+  "sourceGraph": {
+    "src/components/my-app/my-app.tsx": []
+  },
+  "collections": []
+}

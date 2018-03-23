@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "tag": "my-app",
+      "dependencies": [],
+      "componentClass": "MyApp",
+      "componentPath": "components/my-app/my-app.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-app/my-app.css"
+          ]
+        }
+      },
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.6",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}
